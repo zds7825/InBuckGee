@@ -6,10 +6,14 @@ import org.xmlpull.v1.XmlPullParserFactory;
 import java.io.BufferedInputStream;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.Date;
 
 public class Earthquake {
     public final static String eURL = "http://newsky2.kma.go.kr/service/ErthqkInfoService/EarthquakeReport";
     public final static String KEY = "iBv%2FgYoMdewvMS0j53%2BlOVimhNDifEaKSn15586oh4P%2ButwLaQb2RNhCqtIkekXC0aVqF3fDCGGuTAgkT9RN7w%3D%3D";
+    public static String[] month = {
+            "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
+    };
 
     public Earthquake() {
         try{
@@ -31,13 +35,15 @@ public class Earthquake {
         String tag = null;
         int event_type = xpp.getEventType();
 
-        ArrayList<String> list = new ArrayList<String>();
         String addr = null;
+        ArrayList<String> list = new ArrayList<String>();
         while(event_type != XmlPullParser.END_DOCUMENT) {
             if(event_type == XmlPullParser.START_TAG) {
                 tag = xpp.getName();
             } else if(event_type == XmlPullParser.TEXT) {
-                if(tag.equals("loc"))
+                if(tag.equals("Lat"))
+                    addr = xpp.getText();
+                else if(tag.equals("Lon"))
                     addr = xpp.getText();
             } else if(event_type == XmlPullParser.END_TAG) {
                 tag = xpp.getName();
@@ -47,11 +53,29 @@ public class Earthquake {
             }
             event_type = xpp.next();
         }
+        list.add("127.2816014");
+        list.add("36.7637768");
         return list;
     }
 
     private String getURLParam(String search) {
-        String url = eURL + "?serviceKey=" + KEY + "&numOfRows=10&pageSize=10&pageNo=1&startPage=1&fromTmFc=20160101&toTmFc=20171201";
+        Date date = new Date();
+        String dateStr = date.toString();
+
+        String[] splitStr = new String[6];
+        splitStr = dateStr.split(" ");
+
+        String need = "";
+        need += splitStr[5];
+
+        int monthNum = 0;
+        for(int i = 0; i < month.length; i++) {
+            if(month[i].equals(splitStr[1]))
+                monthNum = i;
+        }
+
+        need += (monthNum + "" + splitStr[2]);
+        String url = eURL + "?serviceKey=" + KEY + "&numOfRows=10&pageSize=10&pageNo=1&startPage=1&fromTmFc=20160101&toTmFc="+need;
         return url;
     }
 }
