@@ -1,13 +1,22 @@
 package koreatech.cse.controller;
 
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+import org.json.simple.JSONValue;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
+import java.io.InputStreamReader;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
+
+import static java.awt.SystemColor.window;
 
 @Controller
 @RequestMapping("/")
@@ -18,7 +27,50 @@ public class HomeController {
     }
 
     @RequestMapping
-    public String home() {
+    public String home(Model model) {
+
+        String urlDef = "http://apis.skplanetx.com/weather/current/minutely?" +
+                "version=1&lat=36.7637768&lon=127.2816014&appKey=500f2b80-1f13-3f58-9ff8-e109bcd884a6";
+
+        String name;
+        String tc;
+        String humidity;
+        try {
+            URL url = new URL(urlDef);
+
+
+            InputStreamReader isr = new InputStreamReader(url.openConnection().getInputStream(), "UTF-8");
+
+            JSONObject obj = (JSONObject) JSONValue.parseWithException(isr);
+            //JSONObject obj = (JSONObject)parser.parse(json);
+
+            System.out.println(obj.toString());
+            JSONObject res = (JSONObject) obj.get("weather");
+
+            System.out.println(res.toString());
+            JSONArray arr = (JSONArray) res.get("minutely");
+
+            System.out.println(arr.toString());
+            JSONObject arr1 = (JSONObject) arr.get(0);
+
+            JSONObject sky = (JSONObject) arr1.get("sky");
+            JSONObject temperature = (JSONObject) arr1.get("temperature");
+
+
+            name = (String) sky.get("name");
+            tc = (String) temperature.get("tc");
+            humidity = (String)arr1.get("humidity");
+
+
+            model.addAttribute("name", name);
+            model.addAttribute("tc", tc);
+            model.addAttribute("humidity", humidity);
+
+        }catch(MalformedURLException e){
+            System.out.println(e.getMessage());
+        }catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
         return "index";
     }
 
