@@ -2,12 +2,10 @@
   Created by IntelliJ IDEA.
   User: 정현스키
   Date: 2017-12-02
-  Time: 오전 11:51
+  Time: 오후 2:54
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page pageEncoding="UTF-8" contentType="text/html; charset=UTF-8"%>
-
-
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -62,7 +60,7 @@
 <div class="container">
 
     <!-- Portfolio Item Heading -->
-    <h1 class="my-4">Weather Forecast
+    <h1 class="my-4">Living enviroment
         <!--<small>Secondary Text</small>-->
     </h1>
 
@@ -215,7 +213,7 @@
                     <p>주소/건물 : <input id="address" style="width: 250px;" type="text" value=""></p>
                     <input type="submit" value="검색" style="width: 100px;">
                     <button onclick="resetSearch()" style="width: 100px;">체크 리셋</button>
-                    <input type="button" id="btn" value="날씨 검색" style="width: 100px;"/>
+                    <input type="button" id="btn" value="생활 검색" style="width: 100px;"/>
                 </form>
             </div><h3 class="my-3">Project Details</h3>
             <ul>
