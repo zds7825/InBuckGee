@@ -9,6 +9,7 @@
     <mvc:resources location="/WEB-INF/resources/" mapping="/resources/**" />
     <mvc:resources location="classpath:/META-INF/resources/webjars/" mapping="/webjars/**" />
 
+
     <context:component-scan base-package="koreatech.cse" />
     <context:property-placeholder location="classpath:config.properties" />
 
