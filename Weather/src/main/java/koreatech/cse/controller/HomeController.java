@@ -22,6 +22,11 @@ public class HomeController {
         return "index";
     }
 
+    @RequestMapping("/weather")
+    public String weather(){
+        return "weather";
+    }
+
     @RequestMapping("/jstlTest")
     public String emptyTest(Model model) {
         String a = null;
