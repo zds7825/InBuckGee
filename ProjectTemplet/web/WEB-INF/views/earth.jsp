@@ -11,6 +11,6 @@
     <title>Title</title>
 </head>
 <body>
-    earth = ${earth}
+arr = ${arr}
 </body>
 </html>
