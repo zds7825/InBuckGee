@@ -26,7 +26,6 @@ public class ParserController {
         return "earth";
     }
 
-
     @RequestMapping("/weather")
         public String weather(Model model) throws IOException, ParseException {
         Weather weather = new Weather();
