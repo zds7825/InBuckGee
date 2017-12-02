@@ -1,6 +1,8 @@
 package Controller;
 
+import Parser.Dust;
 import Parser.Earthquake;
+import Parser.Ultra;
 import Parser.Weather;
 import org.json.simple.parser.ParseException;
 import org.springframework.stereotype.Controller;
@@ -27,11 +29,26 @@ public class ParserController {
     }
 
     @RequestMapping("/weather")
-        public String weather(Model model) throws IOException, ParseException {
+    public String weather(Model model) throws IOException, ParseException {
         Weather weather = new Weather();
         String value = weather.apiParserSearch();
         model.addAttribute("value", value);
         return "weather";
     }
 
+    @RequestMapping("/dust")
+    public String dust(Model model) throws IOException {
+        Dust dust = new Dust();
+        String dustV = dust.apiParserSearch();
+        model.addAttribute("dustV", dustV);
+        return "dust";
+    }
+
+    @RequestMapping("/ultra")
+    public String ultra(Model model) throws IOException {
+        Ultra ultra = new Ultra();
+        String ultraV = ultra.apiParserSearch();
+        model.addAttribute("ultraV", ultraV);
+        return "ultra";
+    }
 }
