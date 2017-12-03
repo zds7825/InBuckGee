@@ -53,8 +53,8 @@ public class Earthquake {
             }
             event_type = xpp.next();
         }
-        list.add("127.2816014");
         list.add("36.7637768");
+        list.add("127.2816014");
         return list;
     }
 

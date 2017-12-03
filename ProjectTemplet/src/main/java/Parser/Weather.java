@@ -15,9 +15,9 @@ public class Weather {
     public String urlDef = "http://apis.skplanetx.com/weather/current/minutely";
     public String params = "?version=1";
 
-    public String apiParserSearch() throws IOException {
-        params += "&lat=" + Double.toString(37.11);
-        params += "&lon=" + Double.toString(128.22);
+    public String apiParserSearch(double a, double b) throws IOException {
+        params += "&lat=" + Double.toString(a);
+        params += "&lon=" + Double.toString(b);
         params += "&appKey=" + "500f2b80-1f13-3f58-9ff8-e109bcd884a6";
         urlDef += params;
         URL url = null;
