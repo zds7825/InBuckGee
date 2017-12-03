@@ -1,14 +1,11 @@
-package Parser;
-
-import org.xmlpull.v1.XmlPullParser;
-import org.xmlpull.v1.XmlPullParserFactory;
+package koreatech.cse.parser;
 
 import java.io.BufferedInputStream;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.Date;
 
-public class Earthquake {
+public class Earthquake {/*
     public final static String eURL = "http://newsky2.kma.go.kr/service/ErthqkInfoService/EarthquakeReport";
     public final static String KEY = "iBv%2FgYoMdewvMS0j53%2BlOVimhNDifEaKSn15586oh4P%2ButwLaQb2RNhCqtIkekXC0aVqF3fDCGGuTAgkT9RN7w%3D%3D";
     public static String[] month = {
@@ -77,5 +74,5 @@ public class Earthquake {
         need += (monthNum + "" + splitStr[2]);
         String url = eURL + "?serviceKey=" + KEY + "&numOfRows=10&pageSize=10&pageNo=1&startPage=1&fromTmFc=20160101&toTmFc="+need;
         return url;
-    }
+    }*/
 }

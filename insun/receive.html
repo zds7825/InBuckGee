@@ -5,8 +5,9 @@
 <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 <script type="text/javascript">
 
+// 예를 들어 ?(37.88415725520472,%20128.03482055081986)형태로 넘어오기때문에 '?)'와 ,'%20' 을 분리해야함
 temp = location.href.split("?(");
-data = temp[1].split(",%");
+data = temp[1].split(",%20");
 latitude = data[0];
 longtitude = data[1].slice(0, -1);// 끝 문자열 삭제
 

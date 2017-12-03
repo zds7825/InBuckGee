@@ -8,14 +8,16 @@ import org.json.simple.parser.ParseException;
 
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.net.*;
+import java.net.URL;
 
-public class Weather {
+public class Ultra {
 
-    public String urlDef = "http://apis.skplanetx.com/weather/current/minutely";
+    public String urlDef = "http://apis.skplanetx.com/weather/windex/uvindex";
     public String params = "?version=1";
 
     public String apiParserSearch(double a, double b) throws IOException {
+        System.out.println(a);
+        System.out.println(b);
         params += "&lat=" + Double.toString(a);
         params += "&lon=" + Double.toString(b);
         params += "&appKey=" + "500f2b80-1f13-3f58-9ff8-e109bcd884a6";
@@ -36,17 +38,19 @@ public class Weather {
         JSONObject res = (JSONObject) obj.get("weather");
 
         //System.out.println(res.toString());
-        JSONArray arr = (JSONArray) res.get("minutely");
+        JSONObject res1 = (JSONObject) res.get("wIndex");
+        JSONArray arr = (JSONArray) res1.get("uvindex");
 
         //System.out.println(arr.toString());
         JSONObject arr1 = (JSONObject) arr.get(0);
 
-        JSONObject sky = (JSONObject) arr1.get("sky");
+        JSONObject sky = (JSONObject) arr1.get("day00");
 
-        String s = (String) sky.get("name");
+        String s = (String) sky.get("index");
+        s += (" " + (String) sky.get("comment"));
 
         //String s = arr.getJSONObject(0).getJSONObject("sky").getString("name");
-        //System.out.println(s);
+        System.out.println(s);
 
         return s;
     }

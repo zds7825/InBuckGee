@@ -1,5 +1,4 @@
-package Parser;
-
+package koreatech.cse.parser;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -8,16 +7,16 @@ import org.json.simple.parser.ParseException;
 
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.net.*;
+import java.net.URL;
 
 public class Weather {
 
-    public String urlDef = "http://apis.skplanetx.com/weather/current/minutely";
+    public String urlDef = "http://apis.skplanetx.com/weather/forecast/3days";
     public String params = "?version=1";
 
-    public String apiParserSearch(double a, double b) throws IOException {
-        params += "&lat=" + Double.toString(a);
-        params += "&lon=" + Double.toString(b);
+    public JSONObject apiParserSearch(String a, String b) throws IOException {
+        params += "&lat=" + a;
+        params += "&lon=" + b;
         params += "&appKey=" + "500f2b80-1f13-3f58-9ff8-e109bcd884a6";
         urlDef += params;
         URL url = null;
@@ -36,18 +35,13 @@ public class Weather {
         JSONObject res = (JSONObject) obj.get("weather");
 
         //System.out.println(res.toString());
-        JSONArray arr = (JSONArray) res.get("minutely");
+        JSONArray arr = (JSONArray) res.get("forecast3days");
 
         //System.out.println(arr.toString());
         JSONObject arr1 = (JSONObject) arr.get(0);
 
-        JSONObject sky = (JSONObject) arr1.get("sky");
 
-        String s = (String) sky.get("name");
 
-        //String s = arr.getJSONObject(0).getJSONObject("sky").getString("name");
-        //System.out.println(s);
-
-        return s;
+        return arr1;
     }
 }

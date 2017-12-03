@@ -1,5 +1,4 @@
-package Parser;
-
+package koreatech.cse.parser;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -8,11 +7,11 @@ import org.json.simple.parser.ParseException;
 
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.net.*;
+import java.net.URL;
 
-public class Weather {
+public class Dust {
 
-    public String urlDef = "http://apis.skplanetx.com/weather/current/minutely";
+    public String urlDef = "http://apis.skplanetx.com/weather/dust";
     public String params = "?version=1";
 
     public String apiParserSearch(double a, double b) throws IOException {
@@ -36,17 +35,17 @@ public class Weather {
         JSONObject res = (JSONObject) obj.get("weather");
 
         //System.out.println(res.toString());
-        JSONArray arr = (JSONArray) res.get("minutely");
+        JSONArray arr = (JSONArray) res.get("dust");
 
         //System.out.println(arr.toString());
         JSONObject arr1 = (JSONObject) arr.get(0);
 
-        JSONObject sky = (JSONObject) arr1.get("sky");
+        JSONObject sky = (JSONObject) arr1.get("pm10");
 
-        String s = (String) sky.get("name");
+        String s = (String) sky.get("grade");
 
         //String s = arr.getJSONObject(0).getJSONObject("sky").getString("name");
-        //System.out.println(s);
+        System.out.println(s);
 
         return s;
     }
