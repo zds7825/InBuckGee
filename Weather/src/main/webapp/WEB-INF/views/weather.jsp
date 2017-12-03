@@ -1,4 +1,9 @@
-<%--
+<%@ page import="java.net.URL" %>
+<%@ page import="java.io.InputStreamReader" %>
+<%@ page import="org.json.simple.JSONObject" %>
+<%@ page import="org.json.simple.JSONValue" %>
+<%@ page import="org.json.simple.JSONArray" %>
+<%@ page import="java.net.MalformedURLException" %><%--
   Created by IntelliJ IDEA.
   User: 정현스키
   Date: 2017-12-02
@@ -30,6 +35,8 @@
 
 <body>
 
+
+
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
@@ -58,6 +65,8 @@
     </div>
 </nav>
 
+
+
 <!-- Page Content -->
 <div class="container">
 
@@ -77,6 +86,7 @@
             <script type="text/javascript">
                 var markersArray = [];
 
+                var n1, n2;
                 var map = new google.maps.Map(document.getElementById("map"), {
                     zoom: 7,
                     center: new google.maps.LatLng(36.7637768, 127.2816014),
@@ -86,7 +96,35 @@
                     getAddress(mouseEvent.latLng);
                     var btn = document.getElementById('btn');
                     btn.onclick = function(){
-                        location.href = "receive.html?"+mouseEvent.latLng;
+                        temp= mouseEvent.split("(");
+                        temp2 = temp[1].split(")");
+
+
+                        data = temp2[0].split(",")
+                        data2 = data[1].substring(1, data[1].length);
+
+
+
+
+
+
+
+                        n1 = data[0];
+                        n2 = data2
+
+
+
+                        location.href = "weather/"+n1+"/"+n2;
+
+
+
+
+
+
+
+
+                        //location.href = "receive.html?"+mouseEvent.latLng;
+
                     }
                 });
 
@@ -173,7 +211,27 @@
                                     }));
                                     var btn = document.getElementById('btn');
                                     btn.onclick = function(){
-                                        location.href = "receive.html?"+latlng.toString();
+
+
+                                        temp= latlng.toString().split("(");
+                                        temp2 = temp[1].split(")");
+
+
+                                        data = temp2[0].split(",")
+                                        data2 = data[1].substring(1, data[1].length);
+
+
+
+
+
+
+
+                                        n1 = data[0];
+                                        n2 = data2
+
+
+
+                                        location.href = "weather/"+n1+"/"+n2;
                                     }
 
                                     var opt = $("<option value='" + latlng.toString() + "'>" + address + "</option>");
@@ -216,6 +274,7 @@
                     <input type="submit" value="검색" style="width: 100px;">
                     <button onclick="resetSearch()" style="width: 100px;">체크 리셋</button>
                     <input type="button" id="btn" value="날씨 검색" style="width: 100px;"/>
+
                 </form>
             </div><h3 class="my-3">Project Details</h3>
             <ul>
