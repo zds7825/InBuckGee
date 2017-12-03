@@ -1,9 +1,13 @@
 ﻿<html>
 <head>
 <title>Google Map 의 클릭한 좌표값을 알아내자</title>
+
 <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+
 <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<input type="button" id="btn" value="button" />
 <script type="text/javascript">
+
 var map;
 function initialize() {
 var myLatlng = new google.maps.LatLng(36.350494,127.383882);
@@ -18,14 +22,21 @@ map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
 google.maps.event.addListener(map, 'click', function(event) {
 placeMarker(event.latLng);
 
+
+
 infowindow.setContent("좌표 : " + event.latLng); // 인포윈도우 안에 클릭한 곳위 좌표값을 넣는다.
 
 //infowindow.Button();
 
 infowindow.setPosition(event.latLng);             // 인포윈도우의 위치를 클릭한 곳으로 변경한다.
-
-
-location.href = "receive.html?"+event.latLng;//receive.html에 event.latLng 변수값을 보냄.
+/*
+var btn = document.getElementById('btn');
+            btn.onclick = function(){
+                location.href = "receive.html?"+event.latLng;
+            }
+            */
+location.href = "receive.html?"+event.latLng;
+//location.href = "receive.html?"+event.latLng;//receive.html에 event.latLng 변수값을 보냄.
 //infowindow.click(location.href = "receive.html?"+event.latLng;);
 
 });
