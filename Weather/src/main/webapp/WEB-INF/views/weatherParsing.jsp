@@ -61,13 +61,13 @@
 
 
 <!-- Page Content -->
-<div class="container">
+<p class="container">
 
     <!-- Portfolio Item Heading -->
     <h1 class="my-4">Weather Forecast
         <!--<small>Secondary Text</small>-->
     </h1>
-
+    <p>
     <!-- Portfolio Item Row -->
     <div class="row">
 
@@ -86,20 +86,30 @@
         <div class="col-md-4">
             <h3 class="my-3">4시간 뒤</h3>
             <div>
-                <li>날씨는 ${lat}</li>
+                <li>날씨는 ${sky4}</li>
                 <li>기온은 ${temp4}</li>
                 <li>습도는 ${humidity4}</li>
                 <li>강수확률은 ${rain4}</li>
-            </div><h3 class="my-3">Project Details</h3>
-            <ul>
-                <li>Lorem Ipsum</li>
-                <li>Dolor Sit Amet</li>
-                <li>Consectetur</li>
-                <li>Adipiscing Elit</li>
-            </ul>
+            </div>
+            <h3 class="my-3">7시간 뒤</h3>
+            <div>
+                <li>날씨는 ${sky7}</li>
+                <li>기온은 ${temp7}</li>
+                <li>습도는 ${humidity7}</li>
+                <li>강수확률은 ${rain7}</li>
+            </div>
+            <h3 class="my-3">10시간 뒤</h3>
+            <div>
+                <li>날씨는 ${sky10}</li>
+                <li>기온은 ${temp10}</li>
+                <li>습도는 ${humidity10}</li>
+                <li>강수확률은 ${rain10}</li>
+            </div>
         </div>
-
     </div>
+
+</p>
+
     <!-- /.row -->
 
 

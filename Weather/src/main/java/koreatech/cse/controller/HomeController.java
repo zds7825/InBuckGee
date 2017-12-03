@@ -97,27 +97,27 @@ public class HomeController {
             JSONObject fcst3hour = (JSONObject)value.get("fcst3hour");
 
             JSONObject precipitation = (JSONObject)fcst3hour.get("precipitation");
-            rain4 = (String)precipitation.get("prob[4]hour");
-            rain7 = (String)precipitation.get("prob[7]hour");
-            rain10 = (String)precipitation.get("prob[10]hour");
+            rain4 = (String)precipitation.get("prob4hour");
+            rain7 = (String)precipitation.get("prob7hour");
+            rain10 = (String)precipitation.get("prob10hour");
 
             JSONObject sky = (JSONObject)fcst3hour.get("sky");
-            sky4 = (String)sky.get("name[4]hour");
-            sky7 = (String)sky.get("name[7]hour");
-            sky10 = (String)sky.get("name[10]hour");
+            sky4 = (String)sky.get("name4hour");
+            sky7 = (String)sky.get("name7hour");
+            sky10 = (String)sky.get("name10hour");
 
             JSONObject humidity = (JSONObject)fcst3hour.get("humidity");
-            humidity4 = (String)humidity.get("rh[4]hour");
-            humidity7 = (String)humidity.get("rh[7]hour");
-            humidity10 = (String)humidity.get("rh[10]hour");
+            humidity4 = (String)humidity.get("rh4hour");
+            humidity7 = (String)humidity.get("rh7hour");
+            humidity10 = (String)humidity.get("rh10hour");
 
             JSONObject temperature = (JSONObject)fcst3hour.get("temperature");
-            temp4 = (String)temperature.get("temp[4]hour");
-            temp7 = (String)temperature.get("temp[7]hour");
-            temp10 = (String)temperature.get("temp[10]hour");
+            temp4 = (String)temperature.get("temp4hour");
+            temp7 = (String)temperature.get("temp7hour");
+            temp10 = (String)temperature.get("temp10hour");
 
 
-            System.out.println(precipitation);
+
 
 
             model.addAttribute("rain4", rain4);
