@@ -32,7 +32,7 @@ public class HomeController {
     public String home(Model model) {
 
         String urlDef = "http://apis.skplanetx.com/weather/current/minutely?" +
-                "version=1&lat=36.7637768&lon=127.2816014&appKey=500f2b80-1f13-3f58-9ff8-e109bcd884a6";
+                "version=1&lat=36.7637768&lon=127.2816014&appKey=d1925a87-c06b-32d3-8be8-cffbe20c8eb8";
 
         String name;
         String tc;
@@ -150,9 +150,9 @@ public class HomeController {
         return "life";
     }
 
-    @RequestMapping("/disaster")
+    @RequestMapping("/test")
     public String disaster(){
-        return "disaster";
+        return "test";
     }
 
     @RequestMapping("/jstlTest")

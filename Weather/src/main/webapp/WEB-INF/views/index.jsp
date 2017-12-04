@@ -103,27 +103,6 @@
         </div>
         <div class="row text-center">
             <div class="col-md-4">
-<<<<<<< HEAD
-            <span class="fa-stack fa-4x">
-              <img src="/resources/img/weatherinformation.png" width = 128 height = 128>
-            </span>
-                <h4 class="service-heading">Weather Information</h4>
-                <p class="text-muted">Provides today's weather information.</p>
-            </div>
-            <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <img src="/resources/img/earthquakeinformation.png" width = 128 height = 128>
-            </span>
-                <h4 class="service-heading">Real-time earthquake information</h4>
-                <p class="text-muted">Provide Real-time earthquake information.</p>
-            </div>
-            <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <img src="/resources/img/dustinformation.png" width = 128 height = 128>
-            </span>
-                <h4 class="service-heading">Living Environment</h4>
-                <p class="text-muted">Our website provides information about the living environment.</p>
-=======
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
@@ -136,7 +115,7 @@
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
                     </span>
-                <h4 class="service-heading"><a href="/disaster">Responsive Design</a></h4>
+                <h4 class="service-heading"><a href="/test">Responsive Design</a></h4>
                 <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
             </div>
             <div class="col-md-4">
@@ -147,7 +126,6 @@
                 <h4 class="service-heading"><a href="/life">M=Web Security</a></h4>
                 <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
             </div>
->>>>>>> 6f25694db8074b5b64379684b3e61a59c47a1997
         </div>
     </div>
 </section>
