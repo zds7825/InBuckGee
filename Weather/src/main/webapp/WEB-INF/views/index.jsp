@@ -85,6 +85,7 @@
         </div>
         <div class="row text-center">
             <div class="col-md-4">
+<<<<<<< HEAD
                 <span class="fa-stack fa-4x">
               <img src="/resources/img/weatherinformation.png" width = 128 height = 128>
             </span>
@@ -104,6 +105,30 @@
             </span>
                 <h4 class="service-heading"><a href="/life">Living Environment</a></h4>
                 <p class="text-muted">Our website provides information about the living environment.</p>
+=======
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                    </span>
+                <h4 class="service-heading"><a href="/weather">E-Commerce</a></h4>
+                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            </div>
+            <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+                    </span>
+                <h4 class="service-heading"><a href="/test">Responsive Design</a></h4>
+                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            </div>
+            <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
+                    </span>
+                <h4 class="service-heading"><a href="/life">M=Web Security</a></h4>
+                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+>>>>>>> 6f49909d1bd46f8c737bd121e49aecde25d140eb
             </div>
         </div>
     </div>

@@ -150,9 +150,9 @@ public class HomeController {
         return "life";
     }
 
-    @RequestMapping("/disaster")
+    @RequestMapping("/test")
     public String disaster(){
-        return "disaster";
+        return "test";
     }
 
     @RequestMapping("/jstlTest")

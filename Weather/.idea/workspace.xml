@@ -17,16 +17,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+<<<<<<< HEAD
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
               <caret line="10" column="72" lean-forward="true" selection-start-line="10" selection-start-column="72" selection-end-line="10" selection-end-column="72" />
+=======
+      <file leaf-file-name="weather.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/weather.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="289" column="20" lean-forward="true" selection-start-line="289" selection-start-column="20" selection-end-line="289" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/koreatech/cse/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="28" column="24" lean-forward="false" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+>>>>>>> 6f49909d1bd46f8c737bd121e49aecde25d140eb
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
       <file leaf-file-name="weather.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/weather.jsp">
           <provider selected="true" editor-type-id="text-editor">
@@ -40,6 +59,24 @@
                 <marker date="1512397315305" expanded="false" signature="10891:10904" ph="..." />
                 <marker date="1512397315305" expanded="false" signature="11387:11393" ph="©" />
               </folding>
+=======
+      <file leaf-file-name="disaster.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/disaster.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="90" column="23" lean-forward="false" selection-start-line="90" selection-start-column="23" selection-end-line="90" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="life.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/life.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="759">
+              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+              <folding />
+>>>>>>> 6f49909d1bd46f8c737bd121e49aecde25d140eb
             </state>
           </provider>
         </entry>
@@ -54,16 +91,35 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="life.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/life.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-2432">
               <caret line="66" column="31" lean-forward="false" selection-start-line="66" selection-start-column="31" selection-end-line="66" selection-end-column="31" />
+=======
+      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/koreatech/cse/service/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="services.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/common/services.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="12" column="42" lean-forward="false" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+>>>>>>> 6f49909d1bd46f8c737bd121e49aecde25d140eb
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
       <file leaf-file-name="weatherinformation.png" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/img/weatherinformation.png">
           <provider selected="true" editor-type-id="images">
@@ -76,11 +132,19 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="399">
               <caret line="21" column="55" lean-forward="false" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
+=======
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="109" column="82" lean-forward="true" selection-start-line="109" selection-start-column="82" selection-end-line="109" selection-end-column="82" />
+>>>>>>> 6f49909d1bd46f8c737bd121e49aecde25d140eb
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/koreatech/cse/controller/HomeController.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -117,6 +181,19 @@
               <caret line="4" column="2688" lean-forward="false" selection-start-line="4" selection-start-column="2679" selection-end-line="4" selection-end-column="2688" />
               <folding />
             </state>
+=======
+      <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/koreatech/cse/controller/HomeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="421">
+              <caret line="152" column="25" lean-forward="false" selection-start-line="152" selection-start-column="25" selection-end-line="152" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#4627#4628#0" expanded="true" />
+                <element signature="e#4656#4657#0" expanded="true" />
+              </folding>
+            </state>
+>>>>>>> 6f49909d1bd46f8c737bd121e49aecde25d140eb
           </provider>
         </entry>
       </file>
@@ -125,12 +202,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Class" />
         <option value="Jsp File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+<<<<<<< HEAD
       <find>header</find>
       <find>timeline-image</find>
       <find>nav-item</find>
@@ -143,6 +222,20 @@
       <find>disaster</find>
       <find>testdisas</find>
       <find>test</find>
+=======
+      <find>주소</find>
+      <find>href</find>
+      <find>latlng</find>
+      <find>name</find>
+      <find>getLatLng</find>
+      <find>onclick</find>
+      <find>btn</find>
+      <find>alert</find>
+      <find>System</find>
+      <find>click</find>
+      <find>지오</find>
+      <find>life</find>
+>>>>>>> 6f49909d1bd46f8c737bd121e49aecde25d140eb
     </findStrings>
   </component>
   <component name="GradleLocalSettings">
@@ -153,6 +246,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/bootstrap/css/creative.min.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/bootstrap/scss/_masthead.scss" />
@@ -163,6 +257,20 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/agency.min.css" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/weatherParsing.jsp" />
+=======
+        <option value="$PROJECT_DIR$/src/main/resources/common/services.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/koreatech/cse/controller/WeatherController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/koreatech/cse/parser/Dust.java" />
+        <option value="$PROJECT_DIR$/src/main/java/koreatech/cse/parser/Ultra.java" />
+        <option value="$PROJECT_DIR$/src/main/java/koreatech/cse/parser/Earthquake.java" />
+        <option value="$PROJECT_DIR$/src/main/java/koreatech/cse/parser/Weather.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/weatherParsing.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/life.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/weather.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/disaster.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/test.jsp" />
+>>>>>>> 6f49909d1bd46f8c737bd121e49aecde25d140eb
         <option value="$PROJECT_DIR$/src/main/java/koreatech/cse/controller/HomeController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
       </list>
@@ -181,6 +289,7 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+<<<<<<< HEAD
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -198,6 +307,11 @@
     <option name="x" value="120" />
     <option name="y" value="110" />
     <option name="width" value="1575" />
+=======
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="952" />
+    <option name="width" value="976" />
+>>>>>>> 6f49909d1bd46f8c737bd121e49aecde25d140eb
     <option name="height" value="1038" />
   </component>
   <component name="ProjectView">
@@ -215,9 +329,14 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="Scratches" />
+=======
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+>>>>>>> 6f49909d1bd46f8c737bd121e49aecde25d140eb
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -265,6 +384,67 @@
               <item name="Weather" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+=======
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cse" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wsc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Weather" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cse" type="462c0819:PsiDirectoryNode" />
+              <item name="parser" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wsc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Weather" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cse" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wsc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Weather" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wsc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Weather" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wsc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Weather" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="dev" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wsc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Weather" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="prod" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wsc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Weather" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 6f49909d1bd46f8c737bd121e49aecde25d140eb
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -293,21 +473,97 @@
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
+=======
+            <path>
+              <item name="wsc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Weather" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wsc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="wsc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.webjars:startbootstrap-creative:3.3.7+1" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="wsc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.webjars:startbootstrap-creative:3.3.7+1" type="70bed36:NamedLibraryElementNode" />
+              <item name="startbootstrap-creative-3.3.7+1.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wsc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.webjars:startbootstrap-creative:3.3.7+1" type="70bed36:NamedLibraryElementNode" />
+              <item name="startbootstrap-creative-3.3.7+1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wsc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.webjars:startbootstrap-creative:3.3.7+1" type="70bed36:NamedLibraryElementNode" />
+              <item name="startbootstrap-creative-3.3.7+1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="3.3.7+1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wsc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.webjars:startbootstrap-creative:3.3.7+1" type="70bed36:NamedLibraryElementNode" />
+              <item name="startbootstrap-creative-3.3.7+1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="3.3.7+1" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wsc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.webjars:startbootstrap-creative:3.3.7+1" type="70bed36:NamedLibraryElementNode" />
+              <item name="startbootstrap-creative-3.3.7+1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="3.3.7+1" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="creative.css" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="wsc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.webjars:startbootstrap-creative:3.3.7+1" type="70bed36:NamedLibraryElementNode" />
+              <item name="startbootstrap-creative-3.3.7+1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="3.3.7+1" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+>>>>>>> 6f49909d1bd46f8c737bd121e49aecde25d140eb
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="AndroidView" />
+=======
+      <pane id="Scratches" />
+      <pane id="Scope" />
+>>>>>>> 6f49909d1bd46f8c737bd121e49aecde25d140eb
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$USER_HOME$/Workspace/WEATHE~1/pom.xml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+>>>>>>> 6f49909d1bd46f8c737bd121e49aecde25d140eb
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -544,6 +800,21 @@
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
       </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <method>
         <option name="BuildArtifacts" enabled="true">
           <artifact name="wsc:war" />
@@ -573,30 +844,52 @@
       <workItem from="1512113182523" duration="1809000" />
       <workItem from="1512115076425" duration="1472000" />
       <workItem from="1512119020735" duration="1295000" />
+<<<<<<< HEAD
       <workItem from="1512179219427" duration="1746000" />
       <workItem from="1512183510956" duration="23942000" />
       <workItem from="1512389200596" duration="15969000" />
+=======
+      <workItem from="1512179219427" duration="21563000" />
+      <workItem from="1512286457793" duration="23924000" />
+      <workItem from="1512320208585" duration="115000" />
+      <workItem from="1512320760095" duration="1664000" />
+      <workItem from="1512396283495" duration="3025000" />
+>>>>>>> 6f49909d1bd46f8c737bd121e49aecde25d140eb
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="46233000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="120" y="110" width="1575" height="1038" extended-state="1" />
+=======
+    <option name="totallyTimeSpent" value="54867000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
+>>>>>>> 6f49909d1bd46f8c737bd121e49aecde25d140eb
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+>>>>>>> 6f49909d1bd46f8c737bd121e49aecde25d140eb
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22516556" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23620309" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -609,9 +902,23 @@
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30429044" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39473686" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2510965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26973686" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24583334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> 6f49909d1bd46f8c737bd121e49aecde25d140eb
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -632,6 +939,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3519">
@@ -694,6 +1002,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> 6f49909d1bd46f8c737bd121e49aecde25d140eb
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16100">
@@ -706,12 +1016,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+<<<<<<< HEAD
           <folding>
             <marker date="1512198457878" expanded="false" signature="2215:2238" ph="com.mysql.jdbc.Driver" />
             <marker date="1512198457878" expanded="false" signature="2279:2290" ph="jdbc:mysql://localhost:3306/wsc?characterEncoding=utf8&amp;useUnicode=true&amp;mysqlEncoding=utf8" />
             <marker date="1512198457878" expanded="false" signature="2336:2352" ph="root" />
             <marker date="1512198457878" expanded="false" signature="2398:2414" ph="cps431" />
           </folding>
+=======
+>>>>>>> 6f49909d1bd46f8c737bd121e49aecde25d140eb
         </state>
       </provider>
     </entry>
@@ -720,6 +1033,7 @@
         <state relative-caret-position="483">
           <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
           <folding>
+<<<<<<< HEAD
             <element signature="e#4631#4632#0" expanded="true" />
             <element signature="e#4664#4665#0" expanded="true" />
             <marker date="1512404348698" expanded="false" signature="4538:4548" ph=" { " />
@@ -728,6 +1042,11 @@
             <marker date="1512404348698" expanded="false" signature="4907:4915" ph="&lt;~&gt;" />
             <marker date="1512404348698" expanded="false" signature="5185:5193" ph="&lt;~&gt;" />
             <marker date="1512404348698" expanded="false" signature="5404:5421" ph="&lt;~&gt;" />
+=======
+            <element signature="imports" expanded="true" />
+            <element signature="e#4627#4628#0" expanded="true" />
+            <element signature="e#4656#4657#0" expanded="true" />
+>>>>>>> 6f49909d1bd46f8c737bd121e49aecde25d140eb
           </folding>
         </state>
       </provider>
@@ -753,6 +1072,13 @@
         <state relative-caret-position="437">
           <caret line="19" column="27" lean-forward="false" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wsc.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -785,6 +1111,8 @@
         <state relative-caret-position="92">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding />
+<<<<<<< HEAD
+=======
         </state>
       </provider>
     </entry>
@@ -792,10 +1120,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> 6f49909d1bd46f8c737bd121e49aecde25d140eb
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/headerBar.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/bootstrap/img/header.jpg" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/bootstrap/js/creative.js" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/bootstrap/css/creative.min.css" />
@@ -808,10 +1145,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/bootstrap/css/creative.css" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/bootstrap/img/map-image.png">
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/bootstrap/img/portfolio/thumbnails/4.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/bootstrap/img/portfolio/thumbnails/3.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/bootstrap/img/portfolio/thumbnails/2.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/bootstrap/img/portfolio/thumbnails/1.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/bootstrap/img/portfolio/thumbnails/5.jpg" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/webjars/startbootstrap-agency/1.0.4/startbootstrap-agency-1.0.4.jar!/META-INF/resources/webjars/startbootstrap-agency/1.0.4/img/map-image.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/webjars/startbootstrap-agency/1.0.4/startbootstrap-agency-1.0.4.jar!/META-INF/resources/webjars/startbootstrap-agency/1.0.4/img/portfolio/dreams.png">
+>>>>>>> 6f49909d1bd46f8c737bd121e49aecde25d140eb
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/bootstrap/scss/_masthead.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -823,17 +1174,55 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2907">
           <caret line="153" column="0" lean-forward="false" selection-start-line="153" selection-start-column="0" selection-end-line="153" selection-end-column="0" />
+=======
+    <entry file="jar://$MAVEN_REPOSITORY$/org/webjars/startbootstrap-agency/1.0.4/startbootstrap-agency-1.0.4.jar!/META-INF/resources/webjars/startbootstrap-agency/1.0.4/img/header-bg.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/bootstrap/img/portfolio/thumbnails/6.jpg" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/webjars/startbootstrap-agency/1.0.4/startbootstrap-agency-1.0.4.jar!/META-INF/resources/webjars/startbootstrap-agency/1.0.4/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16490">
+          <caret line="4" column="112912" lean-forward="false" selection-start-line="4" selection-start-column="112912" selection-end-line="4" selection-end-column="112912" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/html5/structural.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="98" column="16" lean-forward="false" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="16" />
+>>>>>>> 6f49909d1bd46f8c737bd121e49aecde25d140eb
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/wsc.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/bootstrap/css/creative.min.css" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/bootstrap/img/header.jpg" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/webjars/startbootstrap-creative/3.3.7+1/startbootstrap-creative-3.3.7+1.jar!/META-INF/resources/webjars/startbootstrap-creative/3.3.7+1/img/header.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/images/spring.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/bootstrap/css/agency.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-621">
+>>>>>>> 6f49909d1bd46f8c737bd121e49aecde25d140eb
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -846,11 +1235,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1102">
           <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="764">
+          <caret line="171" column="21" lean-forward="false" selection-start-line="171" selection-start-column="21" selection-end-line="171" selection-end-column="21" />
+>>>>>>> 6f49909d1bd46f8c737bd121e49aecde25d140eb
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/bootstrap/package.json">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="304">
           <caret line="16" column="42" lean-forward="true" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
         </state>
@@ -914,6 +1310,10 @@
         <state relative-caret-position="95">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding />
+=======
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> 6f49909d1bd46f8c737bd121e49aecde25d140eb
         </state>
       </provider>
     </entry>
@@ -933,6 +1333,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/koreatech/cse/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="254">
@@ -976,6 +1377,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="15" column="15" lean-forward="false" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/koreatech/cse/controller/WeatherController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/koreatech/cse/parser/Ultra.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1334">
+          <caret line="58" column="1" lean-forward="false" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/koreatech/cse/parser/Dust.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="51" column="1" lean-forward="false" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/koreatech/cse/parser/Earthquake.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/koreatech/cse/parser/Weather.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="40" column="33" lean-forward="false" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
+>>>>>>> 6f49909d1bd46f8c737bd121e49aecde25d140eb
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <marker date="1512397315305" expanded="false" signature="10615:10628" ph="..." />
@@ -987,6 +1416,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/koreatech/cse/controller/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -1001,38 +1431,134 @@
             <marker date="1512404348698" expanded="false" signature="5185:5193" ph="&lt;~&gt;" />
             <marker date="1512404348698" expanded="false" signature="5404:5421" ph="&lt;~&gt;" />
           </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/signin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/signup.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding />
+>>>>>>> 6f49909d1bd46f8c737bd121e49aecde25d140eb
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/weatherParsing.jsp">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="402">
           <caret line="100" column="86" lean-forward="false" selection-start-line="100" selection-start-column="86" selection-end-line="100" selection-end-column="86" />
+=======
+        <state relative-caret-position="1886">
+          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+>>>>>>> 6f49909d1bd46f8c737bd121e49aecde25d140eb
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/agency.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="237">
           <caret line="135" column="41" lean-forward="false" selection-start-line="135" selection-start-column="32" selection-end-line="135" selection-end-column="41" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/koreatech/cse/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+>>>>>>> 6f49909d1bd46f8c737bd121e49aecde25d140eb
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/agency.min.css">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="209">
           <caret line="4" column="2688" lean-forward="false" selection-start-line="4" selection-start-column="2679" selection-end-line="4" selection-end-column="2688" />
+=======
+        <state relative-caret-position="276">
+          <caret line="12" column="42" lean-forward="false" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+>>>>>>> 6f49909d1bd46f8c737bd121e49aecde25d140eb
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="72" lean-forward="true" selection-start-line="10" selection-start-column="72" selection-end-line="10" selection-end-column="72" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/weather.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="289" column="20" lean-forward="true" selection-start-line="289" selection-start-column="20" selection-end-line="289" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/life.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/test.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4807">
+          <caret line="212" column="0" lean-forward="false" selection-start-line="212" selection-start-column="0" selection-end-line="212" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#button#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/koreatech/cse/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="28" column="24" lean-forward="false" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="72" lean-forward="true" selection-start-line="10" selection-start-column="72" selection-end-line="10" selection-end-column="72" />
+        <state relative-caret-position="92">
+          <caret line="109" column="82" lean-forward="true" selection-start-line="109" selection-start-column="82" selection-end-line="109" selection-end-column="82" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/disaster.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="90" column="23" lean-forward="false" selection-start-line="90" selection-start-column="23" selection-end-line="90" selection-end-column="23" />
+>>>>>>> 6f49909d1bd46f8c737bd121e49aecde25d140eb
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/koreatech/cse/controller/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="152" column="25" lean-forward="false" selection-start-line="152" selection-start-column="25" selection-end-line="152" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4627#4628#0" expanded="true" />
+            <element signature="e#4656#4657#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

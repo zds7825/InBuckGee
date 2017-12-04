@@ -71,6 +71,7 @@
     <div class="row">
 
         <div class="col-md-8">
+<<<<<<< HEAD
             <c:set var="currentweather" value="${sky4}"/>
             <c:choose>
                 <c:when test="${currentweather eq '맑음'}">
@@ -133,6 +134,17 @@
                     아무것도 아님
                 </c:otherwise>
             </c:choose>
+=======
+
+
+
+
+
+
+
+
+
+>>>>>>> 6f49909d1bd46f8c737bd121e49aecde25d140eb
         </div>
 
         <div class="col-md-4">
