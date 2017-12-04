@@ -40,25 +40,25 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-        <a class="navbar-brand" href="#">InBuckGee</a>
+        <a class="navbar-brand" href="/">InBuckGee</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home
+                    <a class="nav-link" href="/">Home
                         <span class="sr-only">(current)</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="/weather">Weather Forecast</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Services</a>
+                    <a class="nav-link" href="/">Services</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="/life">Contact</a>
                 </li>
             </ul>
         </div>
@@ -96,25 +96,25 @@
                     getAddress(mouseEvent.latLng);
                     var btn = document.getElementById('btn');
                     btn.onclick = function(){
-                        temp= mouseEvent.split("(");
+                        alert(data[0])
+                        System.out.println("test1");
+                        temp= mouseEvent.latLng.split("(");
+                        System.out.println("test2");
                         temp2 = temp[1].split(")");
-
+                        System.out.println("test3");
 
                         data = temp2[0].split(",")
-                        data2 = data[1].substring(1, data[1].length);
+                        //data2 = data[1].substring(1, data[1].length);
 
+                        System.out.println("test4");
+                        //n1 = data[0];
+                        //n2 = data2
 
+                        //alert(data[1]);
 
+                        alert(data[0])
 
-
-
-
-                        n1 = data[0];
-                        n2 = data2
-
-
-
-                        location.href = "weather/"+n1+"/"+n2;
+                        location.href = "weather/"+data[0]+"/"+data[1];
 
 
 
@@ -149,7 +149,7 @@
                                     //content: address
                                 }).open(map, marker);
 
-                                // location.href = "receive.html?"+latLng;
+                                //location.href = "receive.html?"+latLng;
 
                                 var opt = $("<option value='" + latlng.toString() + "'>" + address + "</option>");
                                 $("#markerList").append(opt);
@@ -219,10 +219,6 @@
 
                                         data = temp2[0].split(",")
                                         data2 = data[1].substring(1, data[1].length);
-
-
-
-
 
 
 
