@@ -61,13 +61,13 @@
 
 
 <!-- Page Content -->
-<p class="container">
+<div class="container">
 
     <!-- Portfolio Item Heading -->
     <h1 class="my-4">Weather Forecast
         <!--<small>Secondary Text</small>-->
     </h1>
-    <p>
+
     <!-- Portfolio Item Row -->
     <div class="row">
 
@@ -145,9 +145,6 @@
             </div>
         </div>
     </div>
-
-</p>
-
     <!-- /.row -->
 
 
