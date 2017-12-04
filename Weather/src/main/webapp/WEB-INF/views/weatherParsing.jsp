@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
   User: 정현스키
@@ -58,8 +59,6 @@
     </div>
 </nav>
 
-
-
 <!-- Page Content -->
 <div class="container">
 
@@ -72,51 +71,66 @@
     <div class="row">
 
         <div class="col-md-8">
-
-            <c:set var="currentweather" value="${sky4}" />
-
+            <c:set var="currentweather" value="${sky4}"/>
             <c:choose>
-                <c:when test="${currentweather == '맑음'}">
-                    <img src="/resources/img/Sun.PNG">
+                <c:when test="${currentweather eq '맑음'}">
+                    <center><img src="/resources/img/weather/sun.PNG" width="400" height="400"></center>
                 </c:when>
-                <c:when test="${currentweather == '구름조금'}">
-                    ${currentweather}
+
+                <c:when test="${currentweather eq '구름조금'}">
+                    <center><img src="/resources/img/weather/smallcloud.PNG" width="400" height="400"></center>
                 </c:when>
-                <c:when test="${currentweather == '구름많음'}">
-                    구름많음
+
+                <c:when test="${currentweather eq '구름많음'}">
+                    <center><img src="/resources/img/weather/bigcloud.PNG" width="400" height="400"></center>
                 </c:when>
-                <c:when test="${currentweather == '구름많고 비'}">
-                    구름많고 비
+
+                <c:when test="${currentweather eq '구름많고 비'}">
+                    <center><img src="/resources/img/weather/bigcloudrain.PNG" width="400" height="400"></center>
                 </c:when>
-                <c:when test="${currentweather == '구름많고 눈'}">
-                    구름많고 눈
+
+                <c:when test="${currentweather eq '구름많고 눈'}">
+                    <center><img src="/resources/img/weather/bigcloudsnow.PNG" width="400" height="400"></center>
                 </c:when>
-                <c:when test="${currentweather == '구름많고 비 또는 눈'}">
-                    구름많고 비 또는 눈
+
+                <c:when test="${currentweather eq '구름많고 비 또는 눈'}">
+                    <center><img src="/resources/img/weather/bigcloudrainsnow.PNG" width="400" height="400"></center>
                 </c:when>
-                <c:when test="${currentweather == '흐림'}">
-                    흐림
+
+                <c:when test="${currentweather eq '흐림'}">
+                    <center><img src="/resources/img/weather/blur.PNG" width="400" height="400"></center>
                 </c:when>
-                <c:when test="${currentweather == '흐리고 비'}">
-                    흐리고 비
+
+                <c:when test="${currentweather eq '흐리고 비'}">
+                    <center><img src="/resources/img/weather/blurrain.PNG" width="400" height="400"></center>
                 </c:when>
-                <c:when test="${currentweather == '흐리고 눈'}">
-                    흐리고 눈
+
+                <c:when test="${currentweather eq '흐리고 눈'}">
+                    <center><img src="/resources/img/weather/blursnow.PNG" width="400" height="400"></center>
                 </c:when>
-                <c:when test="${currentweather == '흐리고 비 또는 눈'}">
-                    흐리고 비 또는 눈
+
+                <c:when test="${currentweather eq '흐리고 비 또는 눈'}">
+                    <center><img src="/resources/img/weather/blurrainsnow.PNG" width="400" height="400"></center>
                 </c:when>
-                <c:when test="${currentweather == '흐리고 낙뢰'}">
-                    흐리고 낙뢰
+
+                <c:when test="${currentweather eq '흐리고 낙뢰'}">
+                    <center><img src="/resources/img/weather/blurthunder.PNG" width="400" height="400"></center>
                 </c:when>
-                <c:when test="${currentweather == '뇌우, 비'}">
-                    뇌우, 비
+
+                <c:when test="${currentweather eq '뇌우, 비'}">
+                    <center><img src="/resources/img/weather/thunderrain.PNG" width="400" height="400"></center>
                 </c:when>
-                <c:when test="${currentweather == '뇌우, 눈'}">
-                    뇌우, 눈
+
+                <c:when test="${currentweather eq '뇌우, 눈'}">
+                    <center><img src="/resources/img/weather/thundersnow.PNG" width="400" height="400"></center>
                 </c:when>
+
+                <c:when test="${currentweather eq '뇌우, 비 또는 눈'}">
+                    <center><img src="/resources/img/weather/thunderrainsnow.PNG" width="400" height="400"></center>
+                </c:when>
+
                 <c:otherwise>
-                    뇌우, 비 또는 눈
+                    아무것도 아님
                 </c:otherwise>
             </c:choose>
         </div>
